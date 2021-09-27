@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import GlobalStyle from './styles/global';
 import { AuthProvider, AuthContext } from './context/AuthContext';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import Foot from "./components/Footer";
 import Vacineflex from "./components/routes/Dashboard/";
 import backgroundImage from './styles/assets/background.png';
@@ -31,7 +31,7 @@ function App() {
     <>
       <AuthProvider >
         <BrowserRouter>
-          <Navbar />
+          {/* <Navbar /> */}
           <div className="backgroundcover">
           <img className="bgpng" src={backgroundImage} alt="" />
           </div>

@@ -89,7 +89,7 @@ export default createGlobalStyle`
         width: 50px;
         padding: 1px;
         margin-left: -230px;
-        margin-top: -10px;
+        margin-top: 20px;
     }
 }
 
@@ -101,7 +101,7 @@ export default createGlobalStyle`
     }
 
     body {        
-    zoom: 75%;
+    zoom: 85%;
     overflow-x: hidden;
     overflow-y: hidden; 
     }
@@ -173,13 +173,13 @@ export default createGlobalStyle`
     .dashboard {
         width: 50px;
         padding: 1px;
-        margin-left: -130px;
-        margin-top: -50px;
+        margin-left: -140px;
+        margin-top: -145px;
     }
 }
 
 ///////////////////DESKTOP RESULÇAO 1920p///////////////////
-@media only screen and (min-width: 1920px){
+@media only screen and (min-width: 1720px){
     html{
     font-family: "Oswald", sans-serif;
     font-size: 86.25%;
@@ -258,8 +258,8 @@ export default createGlobalStyle`
     .dashboard {
         width: 50px;
         padding: 1px;
-        margin-left: -130px;
-        margin-top: -400px;
+        margin-left: -150px;
+        margin-top: -5'00px;
     }
 }
 
