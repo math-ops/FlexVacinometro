@@ -56,8 +56,7 @@ export default createGlobalStyle`
         position: absolute;
         width: 110%;
         height: 100%;
-        margin-left: -150px;
-        
+        margin-left: -150px;        
     }   
 
     .image-top {
@@ -75,7 +74,6 @@ export default createGlobalStyle`
         font-weight: 500;
         font-size: 20px;
         color: #0010c4;
-
     }
 
     .setError2 {
@@ -85,7 +83,6 @@ export default createGlobalStyle`
         font-weight: 500;
         font-size: 20px;
         color: #ff0000;
-
     }    
 
     .dashboard {
@@ -144,8 +141,7 @@ export default createGlobalStyle`
         position: absolute;
         width: 110%;
         height: 100%;
-        margin-left: -150px;
-        
+        margin-left: -150px;        
     }   
 
     .image-top {
@@ -163,7 +159,6 @@ export default createGlobalStyle`
         font-weight: 500;
         font-size: 20px;
         color: #0010c4;
-
     }
 
     .setError2 {
@@ -173,7 +168,6 @@ export default createGlobalStyle`
         font-weight: 500;
         font-size: 20px;
         color: #ff0000;
-
     }    
 
     .dashboard {
@@ -232,8 +226,7 @@ export default createGlobalStyle`
         position: absolute;
         width: 110%;
         height: 100%;
-        margin-left: -150px;
-        
+        margin-left: -150px;        
     }   
 
     .image-top {
@@ -251,7 +244,6 @@ export default createGlobalStyle`
         font-weight: 500;
         font-size: 20px;
         color: #0010c4;
-
     }
 
     .setError2 {
@@ -261,7 +253,6 @@ export default createGlobalStyle`
         font-weight: 500;
         font-size: 20px;
         color: #ff0000;
-
     }    
 
     .dashboard {
