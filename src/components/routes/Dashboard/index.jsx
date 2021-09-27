@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { CardTitle, CardSubtitle, Subtitle } from '../../styles/app';
-import Health from '../../styles/assets/Syringe.svg';
-import axios from '../../services/api';
+import { CardTitle, CardSubtitle, Subtitle } from '../../../styles/app';
+import Health from '../../../styles/assets/Syringe.svg';
+import axios from '../../../services/api';
 import { CountUp } from 'use-count-up'
-import '../../styles/assets/css/Dashboard.css'
+import './style.css'
 
 export default function Vacineflex() {
 

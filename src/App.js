@@ -4,12 +4,12 @@ import { AuthProvider, AuthContext } from './context/AuthContext';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Foot from "./components/Footer";
-import Vacineflex from "./components/routes/Dashboard";
+import Vacineflex from "./components/routes/Dashboard/";
 import backgroundImage from './styles/assets/background.png';
-import Menu from './components/routes/Menu';
-import Colaborador from './components/routes/Colaborador';
-import Controle from './components/routes/Controle';
-import Sigin from "./components/routes/Sigin";
+import Menu from './components/routes/Menu/';
+import Colaborador from './components/routes/Colaborador/';
+import Controle from './components/routes/Controle/';
+import Sigin from "./components/routes/Sigin/";
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
 

@@ -1,8 +1,8 @@
 import React, { useState, useContext } from 'react'
-import { AuthContext } from '../../context/AuthContext';
+import { AuthContext } from '../../../context/AuthContext';
 import { useHistory } from 'react-router-dom';
-import '../../styles/assets/css/Sigin.css'
-import { LoginSubtitle } from '../../styles/app'
+import './style.css'
+import { LoginSubtitle } from '../../../styles/app'
 import { useEffect } from 'react';
 
 export default function Sigin() {

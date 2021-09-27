@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { OptionSubtitle } from '../../styles/app'
-import axios from '../../services/api';
+import { OptionSubtitle } from '../../../styles/app'
+import axios from '../../../services/api';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
-import '../../styles/assets/css/Controle.css'
+import './style.css'
 
 
 export default function Controle() {

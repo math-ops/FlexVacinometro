@@ -7,58 +7,6 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
 }
-/* ///////////////////MOBILE///////////////////
-@media only screen and (max-width: 800px){
-    html{
-    font-family: "Oswald", sans-serif;
-    font-size: 93.75%;
-    }
-    
-    body {
-        
-    zoom: 100%;
-
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    img {
-        margin-right: 40px;
-    }
-
-    .topbar {
-        position: absolute;
-        margin-top: -55px;
-        margin-left: 1000px;
-    }
-
-    .log-topbar {
-        position: absolute;
-        margin-top: -55px;
-        margin-left: 1050px;
-    }
-
-    .logo {
-      width: 120px;
-      height: 60px;
-      margin-top: -110px;
-    }
-
-    .backgroundcover {
-        background: #eee;
-        min-height: 100vh;
-        margin-left: -317px;
-    }
-
-    .bgpng {
-        position: absolute;
-        width: 160vw;
-        
-        
-    }
-} */
 
 ///////////////////DESKTOP RESULÇAO 1024p///////////////////
 @media only screen and (min-width: 1024px){

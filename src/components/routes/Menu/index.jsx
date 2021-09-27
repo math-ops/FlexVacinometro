@@ -1,5 +1,5 @@
 import React from 'react';
-import { MenuSubtitle, MSubtitle } from '../../styles/app';
+import { MenuSubtitle, MSubtitle } from '../../../styles/app';
 import { Link } from 'react-router-dom';
 
 export default function Menu(){

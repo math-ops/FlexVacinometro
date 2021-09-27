@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import { CSubtitle } from '../../styles/app';
-import axios from '../../services/api';
+import { CSubtitle } from '../../../styles/app';
+import axios from '../../../services/api';
 import { useHistory } from 'react-router-dom';
-import '../../styles/assets/css/Colaborador.css'
+import './style.css'
 
 export default function Colaborador() {
   return (
