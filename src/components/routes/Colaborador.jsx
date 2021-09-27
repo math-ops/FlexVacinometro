@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react'
-import { MSubtitle } from '../../styles/app';
+import { CSubtitle } from '../../styles/app';
 import axios from '../../services/api';
 import { useHistory } from 'react-router-dom';
+import '../../styles/assets/css/Colaborador.css'
 
 export default function Colaborador() {
   return (
     <>
       <div className="menu-title">
-        <MSubtitle>Cadastro de Colaborador</MSubtitle>
+        <CSubtitle>Cadastro de Colaborador</CSubtitle>
       </div>
       <FormCadastro />
     </>

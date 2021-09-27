@@ -3,6 +3,7 @@ import { CardTitle, CardSubtitle, Subtitle } from '../../styles/app';
 import Health from '../../styles/assets/Syringe.svg';
 import axios from '../../services/api';
 import { CountUp } from 'use-count-up'
+import '../../styles/assets/css/Dashboard.css'
 
 export default function Vacineflex() {
 
@@ -163,13 +164,13 @@ export function Alimentos({ total_alimentos_arrecadados }) {
     )
 }
 
-export function Porcentagem({ total_alimentos_arrecadados }) {
+export function Porcentagem({ total_dose_unica }) {
     return (
         <>
             <div className="porcento">
-                <CardSubtitle>Porcentagem de Vacinados:</CardSubtitle>
+                <CardSubtitle>Ciclo Vacinal Completo:</CardSubtitle>
                 <div className="number">
-                    <p><CountUp isCounting end={total_alimentos_arrecadados} duration={3.2} />%</p>
+                    <p><CountUp isCounting end={total_dose_unica} duration={3.2} />%</p>
                     <img src="" alt="" />
                 </div>
             </div>

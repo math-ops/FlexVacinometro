@@ -3,6 +3,7 @@ import { OptionSubtitle } from '../../styles/app'
 import axios from '../../services/api';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
+import '../../styles/assets/css/Controle.css'
 
 
 export default function Controle() {

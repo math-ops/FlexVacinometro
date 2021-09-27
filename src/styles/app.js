@@ -49,13 +49,24 @@ export const MSubtitle = styled.h1`
     align-items: center;
 `;
 
+export const CSubtitle = styled.h1`
+    color: #333;
+    margin-top: -6.5rem;
+    margin-left: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
 export const Footer = styled.footer`
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
   text-align: center;
-  padding: 1.4rem 0 1.4rem;
-  font-size: 15px;
-  color: #333;
+  padding: 0;
+  font-size: 20px;
+  color: #fff;
   opacity: 0.8;
-  margin-top: -5rem;
+  margin-top: -7rem;
 `;
 
 export const CardTitle = styled.h2`
@@ -97,6 +108,17 @@ export const OptionSubtitle = styled.h2`
   color: #000;
   margin-top: -150px;
   margin-left: 220px;
+  margin-right: 20px;
+
+`;
+
+export const LoginSubtitle = styled.h2`
+  text-align: center;
+  font-size: 45px;
+  padding: 1rem 0 1rem;
+  color: #000;
+  margin-top: -60px;
+  margin-left: 30px;
   margin-right: 20px;
 
 `;

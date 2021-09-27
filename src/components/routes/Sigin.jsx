@@ -1,15 +1,15 @@
 import React, { useState, useContext } from 'react'
 import { AuthContext } from '../../context/AuthContext';
 import { useHistory } from 'react-router-dom';
-
-import { OptionSubtitle } from '../../styles/app'
+import '../../styles/assets/css/Sigin.css'
+import { LoginSubtitle } from '../../styles/app'
 import { useEffect } from 'react';
 
 export default function Sigin() {
   return (
     <>
       <div className="menu-title">
-        <OptionSubtitle>Vacinômetro Flex - Login</OptionSubtitle>
+        <LoginSubtitle>Vacinômetro Flex - Login</LoginSubtitle>
       </div>
       <FormLogin />
     </>

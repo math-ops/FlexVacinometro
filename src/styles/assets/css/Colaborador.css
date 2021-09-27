@@ -1,0 +1,196 @@
+/* css versão mobile*/
+/* @media only screen and (max-width: 800px){
+
+  .menu-title {
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  
+  .colaborador {
+    margin-left: 40px;
+    margin-top: -80px;
+  }
+  
+  .cad-colaborador {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    width: 900px;
+    height: 500px;
+    background: #fff;
+    border: 1px solid #006432;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-top: -600px;
+    margin-left: 880px;
+  }
+  
+  .cad-label {
+    display: inline-flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 100px;
+    margin-top: 20px;
+  }
+  
+  .cad-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 280px;
+    border-radius: 10px;
+    background: #f0f0f0;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: -140px;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: -150px;
+  }
+  
+  .cad-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    background: #82bc00;
+    border: #006432;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top: 80px;
+  }
+  
+  .cad-button:hover {
+    background: #006432;
+  }
+  
+  .setSucess {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 370px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0010c4;
+  }
+  
+  .setError2 {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 370px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ff0000;
+  }
+
+} */
+
+
+/* css versão desktop */
+@media only screen and (min-width: 799px){
+  .menu-title {
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 900px;
+    font-size: 25px;
+  }
+  
+  .colaborador {
+    margin-left: 40px;
+    margin-top: -80px;
+  }
+  
+  .cad-colaborador {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    width: 900px;
+    height: 500px;
+    background: #fff;
+    border: 1px solid #006432;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-top: -600px;
+    margin-left: 880px;
+  }
+  
+  .cad-label {
+    display: inline-flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 100px;
+    margin-top: 20px;
+  }
+  
+  .cad-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 280px;
+    border-radius: 10px;
+    background: #f0f0f0;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: -140px;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: -150px;
+  }
+  
+  .cad-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    background: #82bc00;
+    border: #006432;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top: 80px;
+  }
+  
+  .cad-button:hover {
+    background: #006432;
+  }
+  
+  .setSucess {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 370px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0010c4;
+  }
+  
+  .setError2 {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 370px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ff0000;
+  }
+  
+}
+

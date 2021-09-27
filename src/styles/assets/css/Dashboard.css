@@ -1,0 +1,192 @@
+/* css versão desktop*/
+@media only screen and (min-width: 799px){
+
+}
+
+.dashboard {
+  width: 10px;
+  
+}
+
+.totalvacinados{
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  width: 1050px;
+  height: 150px;
+  background: #f1b52c;
+  background-image: linear-gradient(to bottom, #f1b52c, #ce6d28);
+  border: 1px solid #ce6d28;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin-top: -850px;
+  margin-left: 800px;
+}
+
+.totalvacinados .number {
+  font-family: "Play", sans-serif;
+  font-size: 85px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  margin-left: 730px;
+  margin-top: -110px;
+
+}
+
+.elegiveis{
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  background: #82bc00;
+  background-image: linear-gradient(to bottom, #82bc00, #006432);
+  border: 1px solid #006432;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top: -680px;
+  margin-left: 800px;
+}
+
+.elegiveis .number {
+  font-family: "Play", sans-serif;
+  font-size: 85px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 85px;
+
+}
+
+.dose-um{
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  background: #ba257d;
+  background-image: linear-gradient(to bottom, #ba257d, #7f1e5e);
+  border: 1px solid #7f1e5e;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top: -680px;
+  margin-left: 1180px;
+}
+
+.dose-um .number {
+  font-family: "Play", sans-serif;
+  font-size: 85px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 85px;
+
+}
+
+.dose-dois{
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  background: #ba257d;
+  background-image: linear-gradient(to bottom, #ba257d, #7f1e5e);
+  border: 1px solid #7f1e5e;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top: -400px;
+  margin-left: 1180px;
+}
+
+.dose-dois .number {
+  font-family: "Play", sans-serif;
+  font-size: 85px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 105px;
+
+}
+
+.unica{
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  background: #82bc00;
+  background-image: linear-gradient(to bottom, #82bc00, #006432);
+  border: 1px solid #006432;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top: -400px;
+  margin-left: 800px;
+}
+
+.unica .number {
+  font-family: "Play", sans-serif;
+  font-size: 85px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 105px;
+
+}
+
+.alimentos{
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  background: #009add;
+  background-image: linear-gradient(to bottom, #009add, #005486);
+  border: 1px solid #005486;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top: -680px;
+  margin-left: 1550px;
+}
+
+.alimentos .number {
+  font-family: "Play", sans-serif;
+  font-size: 85px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+.porcento{
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  background: #009add;
+  background-image: linear-gradient(to bottom, #009add, #005486);
+  border: 1px solid #005486;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top: -400px;
+  margin-left: 1550px;
+}
+
+.porcento .number {
+  font-family: "Play", sans-serif;
+  font-size: 85px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 50px;
+
+}
+

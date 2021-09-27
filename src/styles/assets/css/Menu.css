@@ -1,0 +1,58 @@
+/*/////////////DESKTOP//////////////////*/
+@media only screen and (min-width: 799px){
+
+}
+
+/*////////////////MOBILE/'///////////////*/
+@media only screen and (max-width: 800px){
+
+}
+
+.menu {
+  margin-left: 320px;
+  margin-top: -100px;
+}
+
+.option-col {
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  background: #fff;
+  border: 1px solid #006432;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top: -500px;
+  margin-left: 850px;
+}
+
+.option-vac {
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  background: #fff;
+  border: 1px solid #006432;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top: -500px;
+  margin-left: 1250px;
+}
+
+.menu-button {
+  position: absolute;
+  border: 1px solid #006432;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  background: #82bc00;
+  padding: 5px 40px;
+  font-size: 35px;
+  color: #fff;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.menu-button:hover {
+  background: #006432;
+}
